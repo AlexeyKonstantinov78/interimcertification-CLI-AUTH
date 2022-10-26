@@ -11,7 +11,7 @@ public class User {
     private String password;
     private Role role;
 
-    public User(int id, String lastName, String firstName, String patronymic, String phone, String email, String login, String password) {
+    protected User(int id, String lastName, String firstName, String patronymic, String phone, String email, String login, String password) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
@@ -22,7 +22,7 @@ public class User {
         this.password = password;
         this.role = Role.USER;
     }
-    public User(int id, String lastName, String firstName, String patronymic, String phone, String email, String login, String password, Role role) {
+    protected User(int id, String lastName, String firstName, String patronymic, String phone, String email, String login, String password, Role role) {
         this.id = id;
         this.lastName = lastName;
         this.firstName = firstName;
