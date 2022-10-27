@@ -3,17 +3,48 @@ import Products.ListProducts;
 import User.ListUser;
 import User.User;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 //        ListUser.addUserList("1", "1", "1", "89000000", "", "","");
 //        ListUser.addUserList("1", "1", "1", "89000000", "", "","");
 //        ListUser.addUserList("1", "1", "1", "89000000", "", "","");
 //        ListUser.addUserList("1", "1", "1", "89000000", "", "","");
-        ListUser.getUserList().forEach((n) -> System.out.println(n));
-        System.out.println(ListUser.getUserList().get(0).getRole());
+//        ListUser.getUserList().forEach((n) -> System.out.println(n));
+//        System.out.println(ListUser.getUserList().get(0).getRole());
+//
+//        ListProducts.addProducts("Тумбочка", Category.FURNITURE, 10000.00);
+//        ListProducts.printProduct();
+        menu();
+    }
 
-        ListProducts.addProducts("Тумбочка", Category.FURNITURE, 10000.00);
-        ListProducts.printProduct();
+    public static void menu(){
+        int numMenu = 0;
+        System.out.println("МЕНЮ");
+        System.out.println("Выбирите действие набрав цифру");
+        System.out.println("1 - авторизация");
+        System.out.println("2 - зарегистрироватся");
+        System.out.println("3 - внести данные в прогграмму");
 
+        Scanner input = new Scanner(System.in);
+        try {
+            numMenu = input.nextInt();
+        } catch (InputMismatchException e) {
+            System.out.println("Ошибка ввода");
+            System.out.println("Веедите цифру из перечня");
+            menu();
+        }
+
+        switch (numMenu) {
+            case 1 -> System.out.println("Авторизацич");
+            case 2 -> System.out.println("регистрация");
+            case 3 -> System.out.println("ввод данных");
+            default -> {
+                System.out.println("нет такого пункта меню");
+                menu();
+            }
+        }
     }
 }
