@@ -12,7 +12,7 @@ public class ListUser {
         userList.add(new User(id ,"Admin", "Admin", "Admin", "89000000000", "admin@gmail.com", "Admin","Admin123", Role.ADMIN));
     }
 
-    public static void setUserList(String lastName, String firstName, String patronymic, String phone, String email, String login, String password) {
+    public static void addUserList(String lastName, String firstName, String patronymic, String phone, String email, String login, String password) {
         id += 1;
         userList.add(new User(id, lastName, firstName, patronymic, phone, email, login, password));
     }
