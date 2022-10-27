@@ -26,7 +26,8 @@ public class Main {
         System.out.println("Выбирите действие набрав цифру");
         System.out.println("1 - авторизация");
         System.out.println("2 - зарегистрироватся");
-        System.out.println("3 - внести данные в прогграмму");
+        System.out.println("3 - внести данные в программу");
+        System.out.println("4 - завершение");
 
         Scanner input = new Scanner(System.in);
         try {
@@ -42,8 +43,9 @@ public class Main {
                 System.out.println("Авторизация");
                 Auth.autorization();
             }
-            case 2 -> System.out.println("регистрация");
-            case 3 -> System.out.println("ввод данных");
+            case 2 -> System.out.println("Регистрация");
+            case 3 -> System.out.println("Ввод данных");
+            case 4 -> System.exit(0);
             default -> {
                 System.out.println("нет такого пункта меню");
                 menu();

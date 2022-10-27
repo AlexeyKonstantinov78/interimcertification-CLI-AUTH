@@ -12,6 +12,7 @@ public class Auth {
 
     public static void autorization() {
         count = 0;
+        System.out.println();
         System.out.println("Введите логин или email");
         loginAndEmail = scan().trim();
         System.out.println("Введите пароль");
@@ -50,8 +51,6 @@ public class Auth {
         }
 
     }
-
-
 
     private static String scan() {
         Scanner input = new Scanner(System.in);
