@@ -90,18 +90,18 @@ public class User {
         this.role = role;
     }
 
-        @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", lastName='" + lastName + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", patronymic='" + patronymic + '\'' +
-                ", phone='" + phone + '\'' +
-                ", email='" + email + '\'' +
-                ", login='" + login + '\'' +
-                ", password='" + password + '\'' +
-                ", role=" + role +
-                '}';
-    }
+//        @Override
+//    public String toString() {
+//        return "User{" +
+//                "id=" + id +
+//                ", lastName='" + lastName + '\'' +
+//                ", firstName='" + firstName + '\'' +
+//                ", patronymic='" + patronymic + '\'' +
+//                ", phone='" + phone + '\'' +
+//                ", email='" + email + '\'' +
+//                ", login='" + login + '\'' +
+//                ", password='" + password + '\'' +
+//                ", role=" + role +
+//                '}';
+//    }
 }

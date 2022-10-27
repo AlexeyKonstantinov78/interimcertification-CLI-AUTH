@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) {
 //        ListUser.addUserList("1", "1", "1", "89000000", "", "","");
 //        ListUser.addUserList("1", "1", "1", "89000000", "", "","");
-//        ListUser.addUserList("1", "1", "1", "89000000", "", "","");
-//        ListUser.addUserList("1", "1", "1", "89000000", "", "","");
+        ListUser.addUserList("1", "1", "1", "89000000", "1", "1","1");
+        ListUser.addUserList("as", "1", "1", "89000000", "as", "as","as");
 //        ListUser.getUserList().forEach((n) -> System.out.println(n));
 //        System.out.println(ListUser.getUserList().get(0).getRole());
 //
@@ -38,7 +38,10 @@ public class Main {
         }
 
         switch (numMenu) {
-            case 1 -> System.out.println("Авторизацич");
+            case 1 -> {
+                System.out.println("Авторизация");
+                Auth.autorization();
+            }
             case 2 -> System.out.println("регистрация");
             case 3 -> System.out.println("ввод данных");
             default -> {
