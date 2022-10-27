@@ -1,7 +1,4 @@
-import Products.Category;
-import Products.ListProducts;
 import User.ListUser;
-import User.User;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
