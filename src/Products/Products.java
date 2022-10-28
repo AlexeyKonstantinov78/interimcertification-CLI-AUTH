@@ -1,7 +1,5 @@
 package Products;
 
-import java.util.Arrays;
-
 public class Products {
     private String name;
     private Category category;
@@ -28,11 +26,5 @@ public class Products {
     public double getPrice() {
         return price;
     }
-
-    //    public static void main(String[] args) {
-//
-//        System.out.println(Arrays.toString(Category.values()));
-//
-//    }
 
 }
