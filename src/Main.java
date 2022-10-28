@@ -1,4 +1,5 @@
 import User.ListUser;
+import User.Registration;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -40,7 +41,12 @@ public class Main {
                 System.out.println("Авторизация");
                 Auth.autorization();
             }
-            case 2 -> System.out.println("Регистрация");
+            case 2 -> {
+                System.out.println("Регистрация");
+                System.out.println();
+                Registration.registration();
+                Auth.autorization();
+            }
             case 3 -> System.out.println("Ввод данных");
             case 4 -> System.exit(0);
             default -> {

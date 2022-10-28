@@ -18,8 +18,6 @@ public class Auth {
         System.out.println("Введите пароль");
         password = scan().trim();
 
-        System.out.println("Введен логин или email: " + loginAndEmail + " Введен пароль " + password);
-
         for (User user : ListUser.getUserList()) {
             count += 1;
             if (user.getLogin().equals(loginAndEmail) || user.getEmail().equals(loginAndEmail)) {
