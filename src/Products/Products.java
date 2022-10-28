@@ -25,16 +25,8 @@ public class Products {
         return category;
     }
 
-    public void setCategory(Category category) {
-        this.category = category;
-    }
-
     public double getPrice() {
         return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
     }
 
     //    public static void main(String[] args) {

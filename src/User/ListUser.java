@@ -20,4 +20,19 @@ public class ListUser {
     public static List<User> getUserList() {
         return userList;
     }
+
+    public static void printUser() {
+        for (User user: userList) {
+            System.out.println("id: " + user.getId()
+                + " Фамилия: " + user.getLastName()
+                + " Имя: " + user.getFirstName()
+                + " Отчество: " + user.getPatronymic()
+                    + " Телефон: " + user.getPhone()
+                    + " email: " + user.getEmail()
+                    + " Логин: " + user.getLogin()
+                    + " Пароль: " + user.getPassword()
+                    + " Роль: " + user.getRole()
+            );
+        }
+    }
 }

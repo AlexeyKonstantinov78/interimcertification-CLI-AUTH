@@ -21,8 +21,14 @@ public class ListProducts {
     }
 
     public static void printProduct() {
-        for (Products product: productsList) {
-            System.out.println(product.getName() + " " + product.getCategory().getTitle() + " " + product.getPrice());
+        int count = 0;
+        if (productsList.size() != 0) {
+            for (Products product : productsList) {
+                count += 1;
+                System.out.println(count + " " + product.getName() + " " + product.getCategory().getTitle() + " " + product.getPrice());
+            }
+        } else {
+            System.out.println("Товаров нет");
         }
     }
 

@@ -1,7 +1,6 @@
 import User.ListUser;
 import User.*;
 
-import java.util.List;
 import java.util.Scanner;
 
 public class Auth {

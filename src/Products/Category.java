@@ -4,7 +4,8 @@ public enum Category {
     FURNITURE ("Мебель"),
     EQUIPMENT ("Оборудование"),
     INSTRUMENT ("Инструмент"),
-    PRODUCTS ("Проудкты");
+    PRODUCTS ("Проудкты"),
+    UNDEFAINED ("Нет категории");
 
     private String title;
 
