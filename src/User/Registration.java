@@ -23,9 +23,8 @@ public class Registration {
         setPassword();
         System.out.println("Фамилия: " + lastName
                 + "\nИмя: " + firstName + "\nОтчество: " + patronymic + "\nТелефон: " + phone + "\nEmail: " + email + "\nLogin: " + login + "\nPassword " + password);
+        ListUser.addUserList(lastName, firstName, patronymic, phone, email, login, password);
         System.out.println("Регистрация завершена\n");
-        System.out.println(ListUser.getUserList());
-
     }
 
     private static void setLastName() {
