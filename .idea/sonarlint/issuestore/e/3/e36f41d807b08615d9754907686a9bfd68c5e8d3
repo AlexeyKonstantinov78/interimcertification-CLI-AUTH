@@ -1,0 +1,35 @@
+
+‘
+java:S1192'"vDefine a constant instead of duplicating this literal "Ğ’Ğ²ĞµĞ´ĞµĞ½Ğ½Ñ‹ Ğ½Ğµ ĞºĞ¾Ñ€ĞµĞºÑ‚Ğ½Ñ‹Ğµ Ğ´Ğ°Ğ½Ğ½Ñ‹Ğµ" 7 times.(©€×¶şÿÿÿÿ
+s
+java:S1192!"XDefine a constant instead of duplicating this literal "[a-zA-ZĞ°-ÑĞ-Ğ¯Ñ‘Ğ]*" 3 times.(õ¾¢ôùÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìÒÍ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(âöÆÖûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(İÖ®¶ıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(äğÂşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(€‡úßşÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(›”È¾üÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(©€×¶şÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(å”ª
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(©€×¶şÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(°¡½úÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(©€×¶şÿÿÿÿ
+M	java:S106L"9Replace this use of System.out or System.err by a logger.(¶˜ø
+Q
+java:S6353K"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ü‰Ïx
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(©€×¶şÿÿÿÿ
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(©ŞÚÇùÿÿÿÿ
+b
+java:S5998Y"LRefactor this repetition that can lead to a stack overflow for large inputs.(’‡¯İ
+S	java:S106_"9Replace this use of System.out or System.err by a logger.(©€×¶şÿÿÿÿ
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(† øÿÿÿÿ
+M
+java:S6126h"2Replace this String concatenation with Text block.(† øÿÿÿÿ
+S	java:S106n"9Replace this use of System.out or System.err by a logger.(©€×¶şÿÿÿÿ
+S	java:S106w"9Replace this use of System.out or System.err by a logger.(ŒçĞ®ûÿÿÿÿ
+S	java:S106|"9Replace this use of System.out or System.err by a logger.(©€×¶şÿÿÿÿ
+O	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(âóÅ
+8	java:S131‰""Add a default case to this switch.(¸Ø
+o
+java:S5843v"TSimplify this regular expression to reduce its complexity from 28 to the 20 allowed.(Ôœ†şÿÿÿÿ

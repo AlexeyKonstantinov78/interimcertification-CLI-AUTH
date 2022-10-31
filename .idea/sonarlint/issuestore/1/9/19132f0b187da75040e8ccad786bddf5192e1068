@@ -1,0 +1,19 @@
+
+.
+java:S1700"Rename field "auth"(³Ò³İùÿÿÿÿ
+v
+java:S1450"TRemove the "count" field and declare it as a local variable in the relevant methods.(°©ºµÿÿÿÿÿ8É¸³ËÁ0
+w
+java:S1450	"\Remove the "loginAndEmail" field and declare it as a local variable in the relevant methods.(µ¹üÿÿÿÿ
+m
+java:S1450
+"WRemove the "password" field and declare it as a local variable in the relevant methods.(òŸù
+P
+java:S1118":Add a private constructor to hide the implicit public one.(õ´İ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(îéàäüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñÀ‹ºşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¿ê‹„ûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‰ĞÎÓ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(ßÒ½Şıÿÿÿÿ
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(Ï±Èÿşÿÿÿÿ8¹êËÁ0
